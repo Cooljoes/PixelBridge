@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B6D21E873C0E38065AA074 /* TCPChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EBCBBC9E042B7FC2CEEFC /* TCPChannel.swift */; };
+		028158B2F6A381A4B65A7374 /* TestChart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59A6BCB4619ECB722F614F1B /* TestChart.jpg */; };
+		2F2C65EFBD1211B000A743B6 /* AeroShutter-MIT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D05D7D0ECD80395939520 /* AeroShutter-MIT.txt */; };
+		30EA26C547537A4A99857453 /* WiFiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7270244E840DF9273EC83E5 /* WiFiManager.swift */; };
+		312EB200B1922E6052BE5187 /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122B3F70C571EE73549F2B1C /* ProtocolTests.swift */; };
+		3BE38DF41109F79C5BD06C31 /* CameraModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB146632D08C1D6AB6DE80 /* CameraModels.swift */; };
+		43ECF6897D1757362EA0D0D5 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DD31CA826525F47537C6B /* BLEManager.swift */; };
+		508CC74D34E60C9EEB1F031C /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D968FF5296307B7F7B4A498 /* GalleryView.swift */; };
+		53C55808D2229E5CC91C17F1 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7AD46DC150DB7B78B971C /* ViewModels.swift */; };
+		54D7CD44598C505CA162BECE /* PixelBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF199735854DD7C4B1023AEA /* PixelBridgeApp.swift */; };
+		63AFE22959777AA2CFCECE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBE5E5DD5529B8B0F6BBF23 /* Assets.xcassets */; };
+		8BF9A4EDF3DBF433575A02CA /* NikonProfiles.json in Resources */ = {isa = PBXBuildFile; fileRef = E1DE6F7B6E175B5CFD6782ED /* NikonProfiles.json */; };
+		9279770E2E8FCE971095B8A1 /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55E867BB62C3D8D495E11B4 /* ConnectionTests.swift */; };
+		9D91AA99D96C6A11E817BE1D /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C9526734D4E9BBDAACB08B /* ConnectionManager.swift */; };
+		A599136E5A207AE3BACB6FEF /* PTPPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65A880128DAD9F013CC6831 /* PTPPacket.swift */; };
+		ABC312AE327431A28D80160E /* PTPEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1A05D2E44BE504680EBD6 /* PTPEngine.swift */; };
+		AD2D746300D91989833178F0 /* CapabilityProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0512AA8D28064746E2C9746 /* CapabilityProfile.swift */; };
+		B457CF6EA32CD0FD0718A566 /* PixelBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494ABBA0DE979FE49DE98F2 /* PixelBridgeUITests.swift */; };
+		B8162AFFF3240AFE30A96618 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC85E7595AC4CA583618AF9 /* SettingsView.swift */; };
+		B84B56FCCD6C70ED9F966822 /* DemoCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB9109D3EC9F642F7DB5A0 /* DemoCamera.swift */; };
+		C2A7355550D16E9AA21D1564 /* TransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F93E34465B26E2ED6D6AC /* TransferManager.swift */; };
+		CBF16B82220456BA89AF6815 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010710303314DFC63DB49E /* TransferView.swift */; };
+		CEBBAD4FEFB183AAA1EBFF86 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29AD1B0EAF7D06E9BD96AA7 /* StorageManager.swift */; };
+		D6D7C0E3EE953E3A9E73DC6F /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001CB65DB3D612A69067349 /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0989576F37C791F0CFA32F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5349EE1986815E3545CCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6547BDB05BCA38FD5A0D0E2;
+			remoteInfo = PixelBridge;
+		};
+		5E0CE1974E1779FB1B76A73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5349EE1986815E3545CCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6547BDB05BCA38FD5A0D0E2;
+			remoteInfo = PixelBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B7AD46DC150DB7B78B971C /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		122B3F70C571EE73549F2B1C /* ProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
+		20C9526734D4E9BBDAACB08B /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		30B1640E8DAA0D2BDA1B0403 /* PixelBridgeUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PixelBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3D05D7D0ECD80395939520 /* AeroShutter-MIT.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AeroShutter-MIT.txt"; sourceTree = "<group>"; };
+		456DD31CA826525F47537C6B /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		48F8143447B9DAB90E3C8D28 /* PixelBridge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PixelBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A6BCB4619ECB722F614F1B /* TestChart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestChart.jpg; sourceTree = "<group>"; };
+		7CC85E7595AC4CA583618AF9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7F1EBCBBC9E042B7FC2CEEFC /* TCPChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPChannel.swift; sourceTree = "<group>"; };
+		89EB9109D3EC9F642F7DB5A0 /* DemoCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCamera.swift; sourceTree = "<group>"; };
+		8D968FF5296307B7F7B4A498 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		90AB559166D3FC27AA395A4F /* PixelBridgeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PixelBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29AD1B0EAF7D06E9BD96AA7 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		A55E867BB62C3D8D495E11B4 /* ConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionTests.swift; sourceTree = "<group>"; };
+		B001CB65DB3D612A69067349 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B0512AA8D28064746E2C9746 /* CapabilityProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapabilityProfile.swift; sourceTree = "<group>"; };
+		C0010710303314DFC63DB49E /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		CE3F93E34465B26E2ED6D6AC /* TransferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferManager.swift; sourceTree = "<group>"; };
+		D7270244E840DF9273EC83E5 /* WiFiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiManager.swift; sourceTree = "<group>"; };
+		D8FB146632D08C1D6AB6DE80 /* CameraModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModels.swift; sourceTree = "<group>"; };
+		DF3864E4264047F42C844784 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		E0B1A05D2E44BE504680EBD6 /* PTPEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTPEngine.swift; sourceTree = "<group>"; };
+		E1DE6F7B6E175B5CFD6782ED /* NikonProfiles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NikonProfiles.json; sourceTree = "<group>"; };
+		E65A880128DAD9F013CC6831 /* PTPPacket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTPPacket.swift; sourceTree = "<group>"; };
+		EF199735854DD7C4B1023AEA /* PixelBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelBridgeApp.swift; sourceTree = "<group>"; };
+		F494ABBA0DE979FE49DE98F2 /* PixelBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelBridgeUITests.swift; sourceTree = "<group>"; };
+		FFBE5E5DD5529B8B0F6BBF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0550D51E0A9181A3A1262C19 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				456DD31CA826525F47537C6B /* BLEManager.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		141426E02C00D8D2466C6542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F8143447B9DAB90E3C8D28 /* PixelBridge.app */,
+				90AB559166D3FC27AA395A4F /* PixelBridgeTests.xctest */,
+				30B1640E8DAA0D2BDA1B0403 /* PixelBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADB70BB89694A7963FE89B2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0550D51E0A9181A3A1262C19 /* Bluetooth */,
+				21C9866FAC9AA97493295FB0 /* Connection */,
+				6824495895692F7E0FBA39FB /* Network */,
+				C81B2BA3FBB55EF7B4F205FC /* Protocol */,
+				B13EB355F3B420155BAFCBE6 /* Simulation */,
+				F90ACE39FD72F39F9F4CE5C0 /* Storage */,
+				548B50FCB0BDA381198A682D /* Transfer */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		21C9866FAC9AA97493295FB0 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				20C9526734D4E9BBDAACB08B /* ConnectionManager.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		36EEB5E952485BD90E7952E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB146632D08C1D6AB6DE80 /* CameraModels.swift */,
+				B0512AA8D28064746E2C9746 /* CapabilityProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4071D4FC5BFC9AFB14A7A53E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B001CB65DB3D612A69067349 /* CameraView.swift */,
+				8D968FF5296307B7F7B4A498 /* GalleryView.swift */,
+				7CC85E7595AC4CA583618AF9 /* SettingsView.swift */,
+				C0010710303314DFC63DB49E /* TransferView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4382DD584AA2F39560257D02 = {
+			isa = PBXGroup;
+			children = (
+				D948E915588D450E363BC0BB /* PixelBridge */,
+				75D1FC96908DCF90E40EFD1B /* PixelBridgeTests */,
+				D8D64BB2A62D604447B78E75 /* PixelBridgeUITests */,
+				141426E02C00D8D2466C6542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45ED7E07D06947BFBD5208AB /* Notices */ = {
+			isa = PBXGroup;
+			children = (
+				3E3D05D7D0ECD80395939520 /* AeroShutter-MIT.txt */,
+			);
+			path = Notices;
+			sourceTree = "<group>";
+		};
+		548B50FCB0BDA381198A682D /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F93E34465B26E2ED6D6AC /* TransferManager.swift */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		6824495895692F7E0FBA39FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7F1EBCBBC9E042B7FC2CEEFC /* TCPChannel.swift */,
+				D7270244E840DF9273EC83E5 /* WiFiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		75D1FC96908DCF90E40EFD1B /* PixelBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3864E4264047F42C844784 /* .gitkeep */,
+				A55E867BB62C3D8D495E11B4 /* ConnectionTests.swift */,
+				122B3F70C571EE73549F2B1C /* ProtocolTests.swift */,
+			);
+			path = PixelBridgeTests;
+			sourceTree = "<group>";
+		};
+		B13EB355F3B420155BAFCBE6 /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				89EB9109D3EC9F642F7DB5A0 /* DemoCamera.swift */,
+			);
+			path = Simulation;
+			sourceTree = "<group>";
+		};
+		BCFE2C028A1D79121A4C56F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFBE5E5DD5529B8B0F6BBF23 /* Assets.xcassets */,
+				E1DE6F7B6E175B5CFD6782ED /* NikonProfiles.json */,
+				59A6BCB4619ECB722F614F1B /* TestChart.jpg */,
+				45ED7E07D06947BFBD5208AB /* Notices */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C022BAE2D1E7F68345D1C8B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF199735854DD7C4B1023AEA /* PixelBridgeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C81B2BA3FBB55EF7B4F205FC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E0B1A05D2E44BE504680EBD6 /* PTPEngine.swift */,
+				E65A880128DAD9F013CC6831 /* PTPPacket.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CD92E12706E4DAEC0799172B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				06B7AD46DC150DB7B78B971C /* ViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D8D64BB2A62D604447B78E75 /* PixelBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F494ABBA0DE979FE49DE98F2 /* PixelBridgeUITests.swift */,
+			);
+			path = PixelBridgeUITests;
+			sourceTree = "<group>";
+		};
+		D948E915588D450E363BC0BB /* PixelBridge */ = {
+			isa = PBXGroup;
+			children = (
+				C022BAE2D1E7F68345D1C8B5 /* App */,
+				1ADB70BB89694A7963FE89B2 /* Core */,
+				36EEB5E952485BD90E7952E6 /* Models */,
+				BCFE2C028A1D79121A4C56F2 /* Resources */,
+				CD92E12706E4DAEC0799172B /* ViewModels */,
+				4071D4FC5BFC9AFB14A7A53E /* Views */,
+			);
+			path = PixelBridge;
+			sourceTree = "<group>";
+		};
+		F90ACE39FD72F39F9F4CE5C0 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A29AD1B0EAF7D06E9BD96AA7 /* StorageManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3652E1A866092D0798970B /* PixelBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401D4E368F03839834DCB408 /* Build configuration list for PBXNativeTarget "PixelBridgeUITests" */;
+			buildPhases = (
+				F3419AEE15D9A8DAB4C994CE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC352BE0674F274ADBE1F0FE /* PBXTargetDependency */,
+			);
+			name = PixelBridgeUITests;
+			packageProductDependencies = (
+			);
+			productName = PixelBridgeUITests;
+			productReference = 30B1640E8DAA0D2BDA1B0403 /* PixelBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5C3813CE39487B9E135EB0A3 /* PixelBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4C500FEBCC776E0AB11554 /* Build configuration list for PBXNativeTarget "PixelBridgeTests" */;
+			buildPhases = (
+				8E2A5CFDDCCEB1CEE20C9AA2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD8C4878BA08F0EBA0B13D3 /* PBXTargetDependency */,
+			);
+			name = PixelBridgeTests;
+			packageProductDependencies = (
+			);
+			productName = PixelBridgeTests;
+			productReference = 90AB559166D3FC27AA395A4F /* PixelBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6547BDB05BCA38FD5A0D0E2 /* PixelBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E21492E8BB2FE83C18A729 /* Build configuration list for PBXNativeTarget "PixelBridge" */;
+			buildPhases = (
+				5F37273DCA161FDD15CD532C /* Sources */,
+				0A5D7E34AE08C9D90C502FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelBridge;
+			packageProductDependencies = (
+			);
+			productName = PixelBridge;
+			productReference = 48F8143447B9DAB90E3C8D28 /* PixelBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D5349EE1986815E3545CCE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0C3652E1A866092D0798970B = {
+						TestTargetID = D6547BDB05BCA38FD5A0D0E2;
+					};
+				};
+			};
+			buildConfigurationList = 4F630C60264F941748DCE8B9 /* Build configuration list for PBXProject "PixelBridge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4382DD584AA2F39560257D02;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 141426E02C00D8D2466C6542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6547BDB05BCA38FD5A0D0E2 /* PixelBridge */,
+				5C3813CE39487B9E135EB0A3 /* PixelBridgeTests */,
+				0C3652E1A866092D0798970B /* PixelBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5D7E34AE08C9D90C502FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2C65EFBD1211B000A743B6 /* AeroShutter-MIT.txt in Resources */,
+				63AFE22959777AA2CFCECE3A /* Assets.xcassets in Resources */,
+				8BF9A4EDF3DBF433575A02CA /* NikonProfiles.json in Resources */,
+				028158B2F6A381A4B65A7374 /* TestChart.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F37273DCA161FDD15CD532C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ECF6897D1757362EA0D0D5 /* BLEManager.swift in Sources */,
+				3BE38DF41109F79C5BD06C31 /* CameraModels.swift in Sources */,
+				D6D7C0E3EE953E3A9E73DC6F /* CameraView.swift in Sources */,
+				AD2D746300D91989833178F0 /* CapabilityProfile.swift in Sources */,
+				9D91AA99D96C6A11E817BE1D /* ConnectionManager.swift in Sources */,
+				B84B56FCCD6C70ED9F966822 /* DemoCamera.swift in Sources */,
+				508CC74D34E60C9EEB1F031C /* GalleryView.swift in Sources */,
+				ABC312AE327431A28D80160E /* PTPEngine.swift in Sources */,
+				A599136E5A207AE3BACB6FEF /* PTPPacket.swift in Sources */,
+				54D7CD44598C505CA162BECE /* PixelBridgeApp.swift in Sources */,
+				B8162AFFF3240AFE30A96618 /* SettingsView.swift in Sources */,
+				CEBBAD4FEFB183AAA1EBFF86 /* StorageManager.swift in Sources */,
+				00B6D21E873C0E38065AA074 /* TCPChannel.swift in Sources */,
+				C2A7355550D16E9AA21D1564 /* TransferManager.swift in Sources */,
+				CBF16B82220456BA89AF6815 /* TransferView.swift in Sources */,
+				53C55808D2229E5CC91C17F1 /* ViewModels.swift in Sources */,
+				30EA26C547537A4A99857453 /* WiFiManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2A5CFDDCCEB1CEE20C9AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9279770E2E8FCE971095B8A1 /* ConnectionTests.swift in Sources */,
+				312EB200B1922E6052BE5187 /* ProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3419AEE15D9A8DAB4C994CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B457CF6EA32CD0FD0718A566 /* PixelBridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD8C4878BA08F0EBA0B13D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6547BDB05BCA38FD5A0D0E2 /* PixelBridge */;
+			targetProxy = 0989576F37C791F0CFA32F56 /* PBXContainerItemProxy */;
+		};
+		FC352BE0674F274ADBE1F0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6547BDB05BCA38FD5A0D0E2 /* PixelBridge */;
+			targetProxy = 5E0CE1974E1779FB1B76A73F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CB912A16F310812F659CA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cooljoes.PixelBridgeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelBridge.app/PixelBridge";
+			};
+			name = Release;
+		};
+		241217274024240EB00E2E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B99638AEC4F0A7604C31FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cooljoes.PixelBridgeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelBridge;
+			};
+			name = Debug;
+		};
+		494E11F4316F8BC52D49D8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PixelBridge/App/PixelBridge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PixelBridge/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cooljoes.PixelBridge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51139BD6751E353F2A4D24E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cooljoes.PixelBridgeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelBridge.app/PixelBridge";
+			};
+			name = Debug;
+		};
+		94A2B52A1E951167ADA5EF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9881EEDB9E4C6A151776F38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cooljoes.PixelBridgeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelBridge;
+			};
+			name = Release;
+		};
+		C1E801F9091EA5C3812793ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PixelBridge/App/PixelBridge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PixelBridge/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cooljoes.PixelBridge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401D4E368F03839834DCB408 /* Build configuration list for PBXNativeTarget "PixelBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B99638AEC4F0A7604C31FF1 /* Debug */,
+				9881EEDB9E4C6A151776F38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F630C60264F941748DCE8B9 /* Build configuration list for PBXProject "PixelBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A2B52A1E951167ADA5EF51 /* Debug */,
+				241217274024240EB00E2E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8E21492E8BB2FE83C18A729 /* Build configuration list for PBXNativeTarget "PixelBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E801F9091EA5C3812793ED /* Debug */,
+				494E11F4316F8BC52D49D8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA4C500FEBCC776E0AB11554 /* Build configuration list for PBXNativeTarget "PixelBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51139BD6751E353F2A4D24E9 /* Debug */,
+				0CB912A16F310812F659CA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D5349EE1986815E3545CCE5 /* Project object */;
+}
