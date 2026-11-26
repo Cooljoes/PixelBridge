@@ -4,7 +4,7 @@
 <h1 align="center">PixelBridge</h1>
 <p align="center"><strong>Connect Beyond the Lens.</strong></p>
 <p align="center">
-  <img alt="Swift Swift" src="https://img.shields.io/badge/Swift-Swift-ed7048">
+  <img alt="Language Swift" src="https://img.shields.io/badge/Language-Swift-ed7048">
   <img alt="UI SwiftUI" src="https://img.shields.io/badge/UI-SwiftUI-2563eb">
   <img alt="iOS 17+" src="https://img.shields.io/badge/iOS-17%2B-1f2937">
   <img alt="iPadOS 17+" src="https://img.shields.io/badge/iPadOS-17%2B-1f2937">
@@ -14,7 +14,7 @@
 
 PixelBridge brings camera originals directly to an iPhone or iPad over local Wi-Fi. In the field, a photographer can select a file, import it into Files, then choose whether to add it to Photos. The transfer path requires no internet connection or account.
 
-**Current milestone** · A runnable SwiftUI prototype includes a loopback camera. Its sample JPEG travels through the same two-socket PTP/IP client and disk writer used by the manual camera connection. All seven target Nikon bodies await physical testing.
+**Current milestone** · A runnable SwiftUI prototype includes a loopback camera. Its sample JPEG travels through the same two-socket PTP/IP client and disk writer used by the manual camera connection. All seven target Nikon bodies await physical testing. [Build and test evidence](docs/validation.md)
 
 ## Try the transfer
 

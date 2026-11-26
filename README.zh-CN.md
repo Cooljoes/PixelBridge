@@ -4,7 +4,7 @@
 <h1 align="center">PixelBridge · 像素桥</h1>
 <p align="center"><strong>Connect Beyond the Lens.</strong></p>
 <p align="center">
-  <img alt="Swift Swift" src="https://img.shields.io/badge/Swift-Swift-ed7048">
+  <img alt="Language Swift" src="https://img.shields.io/badge/Language-Swift-ed7048">
   <img alt="UI SwiftUI" src="https://img.shields.io/badge/UI-SwiftUI-2563eb">
   <img alt="iOS 17+" src="https://img.shields.io/badge/iOS-17%2B-1f2937">
   <img alt="iPadOS 17+" src="https://img.shields.io/badge/iPadOS-17%2B-1f2937">
@@ -14,7 +14,7 @@
 
 PixelBridge 让摄影师通过局域网把相机原片直接传到 iPhone 或 iPad。连上相机热点后，可以选片、下载到「文件」，再按需导入系统相册。传输无需互联网或账号。
 
-**当前进度** · SwiftUI 原型已可运行。内置模拟相机的测试 JPEG 与手动连接相机共用双通道 PTP/IP 客户端和磁盘写入流程。七款目标尼康机身均待真机验证。
+**当前进度** · SwiftUI 原型已可运行。内置模拟相机的测试 JPEG 与手动连接相机共用双通道 PTP/IP 客户端和磁盘写入流程。七款目标尼康机身均待真机验证。 [构建与测试记录](docs/validation.md)
 
 ## 体验一次传输
 
