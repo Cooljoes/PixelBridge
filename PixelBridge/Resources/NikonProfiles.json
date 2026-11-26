@@ -1,0 +1,86 @@
+[
+  {
+    "model": "Nikon Z9",
+    "firmware": null,
+    "blePairing": "Untested",
+    "wifi": "Untested",
+    "ptpip": "Untested",
+    "jpeg": "Untested",
+    "raw": "Untested",
+    "video": "Untested",
+    "uploadWhileOff": "Untested",
+    "offsetResume": "Untested"
+  },
+  {
+    "model": "Nikon Z8",
+    "firmware": null,
+    "blePairing": "Untested",
+    "wifi": "Untested",
+    "ptpip": "Untested",
+    "jpeg": "Untested",
+    "raw": "Untested",
+    "video": "Untested",
+    "uploadWhileOff": "Untested",
+    "offsetResume": "Untested"
+  },
+  {
+    "model": "Nikon Z6 III",
+    "firmware": null,
+    "blePairing": "Untested",
+    "wifi": "Untested",
+    "ptpip": "Untested",
+    "jpeg": "Untested",
+    "raw": "Untested",
+    "video": "Untested",
+    "uploadWhileOff": "Untested",
+    "offsetResume": "Untested"
+  },
+  {
+    "model": "Nikon Z5 II",
+    "firmware": null,
+    "blePairing": "Untested",
+    "wifi": "Untested",
+    "ptpip": "Untested",
+    "jpeg": "Untested",
+    "raw": "Untested",
+    "video": "Untested",
+    "uploadWhileOff": "Untested",
+    "offsetResume": "Untested"
+  },
+  {
+    "model": "Nikon Zf",
+    "firmware": null,
+    "blePairing": "Untested",
+    "wifi": "Untested",
+    "ptpip": "Untested",
+    "jpeg": "Untested",
+    "raw": "Untested",
+    "video": "Untested",
+    "uploadWhileOff": "Untested",
+    "offsetResume": "Untested"
+  },
+  {
+    "model": "Nikon Z50 II",
+    "firmware": null,
+    "blePairing": "Untested",
+    "wifi": "Untested",
+    "ptpip": "Untested",
+    "jpeg": "Untested",
+    "raw": "Untested",
+    "video": "Untested",
+    "uploadWhileOff": "Untested",
+    "offsetResume": "Untested"
+  },
+  {
+    "model": "Nikon ZR",
+    "firmware": null,
+    "blePairing": "Untested",
+    "wifi": "Untested",
+    "ptpip": "Untested",
+    "jpeg": "Untested",
+    "raw": "Untested",
+    "video": "Untested",
+    "uploadWhileOff": "Untested",
+    "offsetResume": "Untested"
+  }
+]
