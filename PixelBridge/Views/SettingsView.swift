@@ -45,6 +45,10 @@ private struct CapabilityProfilesView: View {
                         LabeledContent("NEF original", value: profile.raw)
                         LabeledContent("Video", value: profile.video)
                         LabeledContent("Upload While Off", value: profile.uploadWhileOff)
+                            .accessibilityElement(children: .ignore)
+                            .accessibilityLabel("Upload While Off")
+                            .accessibilityValue(profile.uploadWhileOff)
+                            .accessibilityIdentifier("profile.uploadWhileOff")
                         LabeledContent("Offset resume", value: profile.offsetResume)
                     }
                 }

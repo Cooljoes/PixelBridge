@@ -4,6 +4,8 @@ import CoreBluetooth
 struct CameraView: View {
     @Bindable var model: CameraViewModel
     @State private var joinOptions = false
+    private enum Field { case address, ssid, password }
+    @FocusState private var focused: Field?
     var body: some View {
         let link = model.link
         List {
@@ -25,14 +27,17 @@ struct CameraView: View {
             if link.canStart {
                 Section("Camera Wi-Fi") {
                     TextField("Camera IPv4 address", text: $model.host).keyboardType(.decimalPad)
-                        .accessibilityLabel("Camera IPv4 address")
+                        .accessibilityLabel("Camera IPv4 address").focused($focused, equals: .address)
                     DisclosureGroup("Join a camera hotspot", isExpanded: $joinOptions) {
                         TextField("SSID from camera", text: $model.ssid)
-                            .autocorrectionDisabled().textInputAutocapitalization(.never)
-                        SecureField("Hotspot password", text: $model.password)
+                            .autocorrectionDisabled().textInputAutocapitalization(.never).focused($focused, equals: .ssid)
+                        SecureField("Hotspot password", text: $model.password).focused($focused, equals: .password)
                         Toggle("Remember in Keychain", isOn: $model.remember)
                     }
-                    Button("Connect over Wi-Fi") { model.connect() }
+                    Button("Connect over Wi-Fi") {
+                        focused = nil
+                        model.connect()
+                    }
                 }
                 Section("Nearby cameras") {
                     Button("Scan with Bluetooth") { link.bluetooth.scan() }
@@ -52,5 +57,11 @@ struct CameraView: View {
             }
         }
         .navigationTitle("Camera")
+        .toolbar {
+            ToolbarItemGroup(placement: .keyboard) {
+                Spacer()
+                Button("Done") { focused = nil }
+            }
+        }
     }
 }
