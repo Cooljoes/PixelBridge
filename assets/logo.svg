@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="23" fill="#111827"/>
+  <g fill="#60a5fa">
+    <rect x="18" y="34" width="8" height="8" rx="1.5"/>
+    <rect x="18" y="45" width="8" height="8" rx="1.5"/>
+    <rect x="18" y="56" width="8" height="8" rx="1.5"/>
+    <g opacity=".83">
+      <rect x="29" y="34" width="8" height="8" rx="1.5"/>
+      <rect x="29" y="45" width="8" height="8" rx="1.5"/>
+      <rect x="29" y="56" width="8" height="8" rx="1.5"/>
+    </g>
+    <g opacity=".66">
+      <rect x="40" y="34" width="8" height="8" rx="1.5"/>
+      <rect x="40" y="45" width="8" height="8" rx="1.5"/>
+      <rect x="40" y="56" width="8" height="8" rx="1.5"/>
+    </g>
+  </g>
+  <g fill="#f8fafc">
+    <g opacity=".66">
+      <rect x="52" y="34" width="8" height="8" rx="1.5"/>
+      <rect x="52" y="45" width="8" height="8" rx="1.5"/>
+      <rect x="52" y="56" width="8" height="8" rx="1.5"/>
+    </g>
+    <g opacity=".83">
+      <rect x="63" y="34" width="8" height="8" rx="1.5"/>
+      <rect x="63" y="45" width="8" height="8" rx="1.5"/>
+      <rect x="63" y="56" width="8" height="8" rx="1.5"/>
+    </g>
+    <rect x="74" y="34" width="8" height="8" rx="1.5"/>
+    <rect x="74" y="45" width="8" height="8" rx="1.5"/>
+    <rect x="74" y="56" width="8" height="8" rx="1.5"/>
+  </g>
+  <path d="M29 30 Q50 7 71 30 M29 68 Q50 91 71 68" stroke="#60a5fa" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M46 49 H54" stroke="#60a5fa" stroke-width="3"/>
+</svg>

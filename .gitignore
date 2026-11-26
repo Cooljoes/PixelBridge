@@ -1,0 +1,14 @@
+# Xcode build products and per-user settings
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
